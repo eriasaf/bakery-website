@@ -1,3 +1,12 @@
+import React from 'react';
+import { Link, Route,Routes } from 'react-router-dom';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Menu from './Components/Menu';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Feed from './Components/Feed';
 import cover from "./Components/assets/cover.jpg";
 import './index.css';
 import './App.css';
@@ -21,7 +30,7 @@ function App() {
             
         </nav>
       
-        <Header />
+        <Header/>
         <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/menu" element={<Menu/>} />
@@ -37,3 +46,4 @@ function App() {
 }
 
 export default App;
+                                   s
