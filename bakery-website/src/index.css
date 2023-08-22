@@ -5,9 +5,305 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0909;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.header {
+  background-color: #0c0c0c;
+  padding: 1rem;
+  
+}
+
+.overlay-content h1{
+  text-align: left;
+  font-weight: bold;
+  font-size: large;
+  justify-content: left;
+  color: #137304;
+}
+
+.overlay-content h2{
+  text-align: right;
+  font-weight: bold;
+  font-size: large;
+  justify-content: center;
+  color: #40f013;
+}
+.call{
+  padding: 0 3%;
+  max-width: 60%;
+  max-height: 5%;
+  flex-direction: end;
+  justify-content: right;
+   justify-items: right;
+  
+  
+}
+.notifications{
+  padding: 0 1%;
+  max-width: 60%;
+  max-height: 5%;
+  justify-content: left;
+  margin-bottom: 10%;
+}
+ .us{
+  font-weight: bold;
+  justify-content: left;
+  top: 20;
+  margin-left: 250%;
+  align-self: flex-end;
+  margin-top: -50%;
+  flex-wrap: wrap;
+  box-shadow: #0ae94d;
+ }
+.us h2{
+  color: #137304;
+}
+.not{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+.child img{
+  flex:content;
+  flex-wrap: wrap;
+  border: 20% solid rgb(199, 199, 199);
+  border-radius: 100%;
+  padding: 3%;
+  max-width: 20%;
+  background: rgb(3, 38, 38);
+  height: 100%;
+}
+.child p{
+  font-weight: bold;
+  padding-left: 0.5%;
+}
+.about {
+  font-weight: 300%;
+  width: 20%;
+  max-height: 10%;
+  
+}
+.about h2 {
+  font-weight: bold;
+  font-size: large;
+  color: #40f013;
+  text-align: left;
+}
+
+
+.notifications small{
+  color: green;
+}
+.parent{
+  background: linear-gradient(to bottom, transparent, rgb(187, 206, 206));
+}
+.header h1 {
+  color: #fff;
+}
+.header {
+  top: 2%;
+  position: relative;
+  max-height: 100%;
+  
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  flex-wrap: wrap;
+}
+
+
+.nav {
+  display: flex;
+  justify-content:right;
+  margin-right: 1%;
+  font-weight: bold;
+  margin-right: 1%;
+  flex-direction: end;
+  
+  
+}
+
+
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  text-align: right;
+  font-size: 110%;
+  flex-direction:end;
+  margin-right: 0.5%;
+  color:var(-- black);
+   justify-content: right; 
+
+}
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home h2 {
+  color: #f8c291;
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.2rem;
+}
+.menu {
+  text-align: center;
+  padding: 2rem;
+}
+.about{
+  width: 50%;
+  height:50%;
+  padding: 1%;
+}
+
+.menu h2 {
+  color: #565453;
+  margin-bottom: 1rem;
+}
+
+.menu-section {
+  padding: 0.5%;
+  background-color: #111010;
+  text-align: center;
+  
+  padding-right: 5%;
+  padding-left: 5%;
+ 
+}
+
+.menu-container {
+  max-width: 100%;
+  margin: 0%;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-right:2rem ;
+  margin-left:2rem ;
+}
+
+.menu-item {
+  background-color: #121111;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(22, 23, 22, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.item-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0rem;
+}
+
+.item-details {
+  text-align: left;
+}
+
+.item-details h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.item-details p {
+  color: #777;
+  margin-bottom: 0.5rem;
+}
+.item-card{
+  width: 80%;
+  height: 10%;
+  
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+}
+
+.menu li h3 {
+  color: #333;
+}
+
+.menu li p {
+  color: #666;
+}
+
+.menu li p:last-child {
+  margin-top: 0.5rem;
+}
+.contact {
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact h2 {
+  color: #f8c291;
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1%;
+  background-color: #100801;
+}
+.app{
+  background-color: #0a0909;
+}
+
+
+.contact input,
+.contact textarea {
+  width: 30%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #0a0909;
+  border-radius: 3%;
+}
+.contact button {
+  background-color: #40f013;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #100801;
+  color: #fff;
 }
